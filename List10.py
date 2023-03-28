@@ -9,4 +9,4 @@ def main(list_num):
     x = max(list_num[0], list_num[-1])
     return x
 
-print(main([12, 2, 5, 2, 7, 9, 1]))
+print(main([5, 32, 1, 4, 3]))
