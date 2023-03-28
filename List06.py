@@ -7,12 +7,11 @@ def main(list1):
         list: return answer
     """
     x = 0
-
     while x < len(list1):
         if list1[x] == 1:
             list1[x] = True
         x += 1
-    return list1, x
+    return list1
 
 print(main([1, 0, 0, 0, 0]))
 
