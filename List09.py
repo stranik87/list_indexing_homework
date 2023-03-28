@@ -6,4 +6,13 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    x = 0 
+    while x < len(list1):
+        if list1[x] == list1[0]:
+            return True
+        else:
+            return False    
+        x += 1
+    return list1
+
+print(main([0, 0, 0, 0, 0]))
