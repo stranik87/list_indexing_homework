@@ -12,7 +12,7 @@ def main(list1):
         if list1[x] == 0:
             list1[x] = False
         x += 1
-    return list1, x
+    return list1
 
 print(main([1, 0, 0, 0, 0]))
     
